@@ -5,11 +5,17 @@ This is a text adventure game written in Clojure based on the Siebel center of C
 At each turn these intructions are allowed:
 
 [go "@"] -                      go in direction "@"
+
 [examine room] -                examine the current room
+
 [examine item "@"] -            examine item "@" that is already present in the inventory
+
 [i] -                           look up inventory 
+
 [pick up "@"] -                 add item "@" to the inventory
+
 [drop "@"] -                    drop item "@" from the inventory
+
 [apply action "@1" on "@2"] -   apply action "@1" on item "@2" (must be present in inventory)
 
 To win the game, you need to gain 100+ knowledge and 100+ project completion status. Entering some rooms will help you complete the project, and there are some items that would help increase your knowledge.
